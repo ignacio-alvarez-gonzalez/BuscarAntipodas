@@ -6,13 +6,29 @@
         <title>Ejercicios API JavaScript</title>
         <link rel="stylesheet" href="http://js.arcgis.com/3.18/dijit/themes/nihilo/nihilo.css">
         <link rel="stylesheet" href="https://js.arcgis.com/3.35/esri/css/esri.css">
-        <link rel="stylesheet" href="20210302_EjerciciosAPI_06.css">
+        <link rel="stylesheet" href="20210428_EjerciciosAPI_07_Antipodas.css">
         <script src="https://js.arcgis.com/3.35/"></script>
         <script src="20210303_EjerciciosAPI_07_Antipodas.js"></script>
     </head>
 
     <body class="nihilo">
         
+        <div style="display: flex; flex-direction: row;">
+            <button id="seleccionarPunto">Seleccione una ubicación en el mapa.</button>
+            <div id="buscarUbicacion"></div>
+        </div>
+
+        <div style="display: flex; flex-direction: row;">
+            <label for="ubicacion">Tu ubicación:</label><p id="ubicacion"></p>
+            <br><label for="latitud1">Latitud:</label><p id="latitud1"></p>
+            <br><label for="longitud1">Longitud:</label><p id="longitud1"></p>
+        </div>
+        <div style="display: flex; flex-direction: row;">
+            <label for="antipodas">Tus antípdoas:</label><p id="antipodas"></p>
+            <br><label for="latitud2">Latitud:</label><p id="latitud2"></p>
+            <br><label for="longitud2">Longitud:</label><p id="longitud2"></p>
+        </div>
+
         <div id="divMap1"></div>
         <div id="divMap2"></div>
         
